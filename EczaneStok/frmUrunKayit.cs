@@ -85,12 +85,13 @@ namespace EczaneStok
             string ad = txtAd.Text;
             string barkod = txtBarkod.Text;
             string stok = txtStok.Text;
-            string fiyat = txtFiyat.Text;
+            double fiyat = Convert.ToDouble(txtFiyat.Text);
             string aciklama = rtbAciklama.Text;
             string tur = cbTur.Text;
+            string geriodeme = txtGeriOdeme.Text;
 
-            string query = "INSERT INTO `okulprojesi`.`ilac` (`id`, `ad`, `barkod`, `tur`, `stok`, `aciklama`, `fiyat`) VALUES (NULL, '"+ad+"', '"+barkod+"', '"+tur+"', '"+stok+"', '"+aciklama+"', '"+fiyat+"')";
-            if (ad != "" && barkod != "" && stok != "" && fiyat != "" && aciklama != "" && tur != "")
+            string query = "INSERT INTO `okulprojesi`.`ilac` (`id`, `ad`, `barkod`, `tur`, `stok`, `aciklama`, `fiyat`, `GeriOdemeKodu`) VALUES (NULL, '" + ad + "', '" + barkod + "', '" + tur + "', '" + stok + "', '" + aciklama + "', '" + fiyat + "', '" + geriodeme + "')";
+            if (ad != "" && barkod != "" && stok != "" && fiyat != 0 && aciklama != "" && tur != "" && geriodeme != "")
             {
                 if (this.OpenConnection() == true)
                 {
@@ -105,6 +106,7 @@ namespace EczaneStok
                         txtFiyat.Text = "";
                         rtbAciklama.Text = "";
                         cbTur.Text = "";
+                        txtGeriOdeme.Text = "";
                     }
 
                     this.CloseConnection();

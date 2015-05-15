@@ -43,6 +43,8 @@
             this.lblTur = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnEkle = new System.Windows.Forms.Button();
+            this.lblGeriOdeme = new System.Windows.Forms.Label();
+            this.txtGeriOdeme = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -197,11 +199,29 @@
             this.btnEkle.UseVisualStyleBackColor = true;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
+            // lblGeriOdeme
+            // 
+            this.lblGeriOdeme.AutoSize = true;
+            this.lblGeriOdeme.Location = new System.Drawing.Point(289, 135);
+            this.lblGeriOdeme.Name = "lblGeriOdeme";
+            this.lblGeriOdeme.Size = new System.Drawing.Size(114, 17);
+            this.lblGeriOdeme.TabIndex = 16;
+            this.lblGeriOdeme.Text = "Geri Ödeme Kodu";
+            // 
+            // txtGeriOdeme
+            // 
+            this.txtGeriOdeme.Location = new System.Drawing.Point(292, 155);
+            this.txtGeriOdeme.Name = "txtGeriOdeme";
+            this.txtGeriOdeme.Size = new System.Drawing.Size(121, 25);
+            this.txtGeriOdeme.TabIndex = 15;
+            // 
             // frmUrunKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(425, 328);
+            this.Controls.Add(this.lblGeriOdeme);
+            this.Controls.Add(this.txtGeriOdeme);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.lblTur);
@@ -248,5 +268,7 @@
         private System.Windows.Forms.Label lblTur;
         private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblGeriOdeme;
+        private System.Windows.Forms.TextBox txtGeriOdeme;
     }
 }

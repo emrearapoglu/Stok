@@ -30,3 +30,5 @@ C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmYonetic
 C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmYoneticiKayit.resources
 C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.Properties.Resources.resources
 C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.csproj.GenerateResource.Cache
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmArama.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmKritikStok.resources

@@ -62,15 +62,17 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 111);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.ShowEditingIcon = false;
-            this.dataGridView1.Size = new System.Drawing.Size(744, 416);
+            this.dataGridView1.Size = new System.Drawing.Size(856, 416);
             this.dataGridView1.TabIndex = 6;
-            this.dataGridView1.RowValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowValidated);
             // 
             // btnArama
             // 
@@ -100,7 +102,7 @@
             // 
             this.btnYenile.Image = global::EczaneStok.Properties.Resources.yenile;
             this.btnYenile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnYenile.Location = new System.Drawing.Point(686, 80);
+            this.btnYenile.Location = new System.Drawing.Point(798, 80);
             this.btnYenile.Name = "btnYenile";
             this.btnYenile.Size = new System.Drawing.Size(70, 25);
             this.btnYenile.TabIndex = 5;
@@ -113,7 +115,7 @@
             // 
             this.btnCikis.Image = global::EczaneStok.Properties.Resources.cikis;
             this.btnCikis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCikis.Location = new System.Drawing.Point(661, 12);
+            this.btnCikis.Location = new System.Drawing.Point(773, 9);
             this.btnCikis.Name = "btnCikis";
             this.btnCikis.Size = new System.Drawing.Size(95, 38);
             this.btnCikis.TabIndex = 3;
@@ -151,7 +153,7 @@
             // lnkKritikStok
             // 
             this.lnkKritikStok.AutoSize = true;
-            this.lnkKritikStok.Location = new System.Drawing.Point(285, 91);
+            this.lnkKritikStok.Location = new System.Drawing.Point(362, 91);
             this.lnkKritikStok.Name = "lnkKritikStok";
             this.lnkKritikStok.Size = new System.Drawing.Size(214, 17);
             this.lnkKritikStok.TabIndex = 9;
@@ -163,7 +165,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(768, 539);
+            this.ClientSize = new System.Drawing.Size(880, 539);
+            this.ControlBox = false;
             this.Controls.Add(this.lnkKritikStok);
             this.Controls.Add(this.btnArama);
             this.Controls.Add(this.pictureBox1);
@@ -181,7 +184,6 @@
             this.Name = "frmStokEkrani";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Eczane İlaç Stoğu";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmStokEkrani_FormClosing);
             this.Load += new System.EventHandler(this.frmStokEkrani_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
