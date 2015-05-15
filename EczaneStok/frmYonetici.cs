@@ -37,6 +37,11 @@ namespace EczaneStok
             connection = new MySqlConnection(connectionString);
             YoneticiDB();
 
+            dataGridView1.Columns[0].HeaderText = "ID";
+            dataGridView1.Columns[1].HeaderText = "Kullanıcı Adı";
+            dataGridView1.Columns[2].HeaderText = "Şifre";
+            dataGridView1.Columns[3].HeaderText = "İsim";
+
             lblHosgeldin.Text = "Hoşgeldiniz, " + frmGiris.isim + ".";
         }
 
@@ -48,6 +53,9 @@ namespace EczaneStok
                 DataSet DS = new DataSet();
                 mySqlDataAdapter.Fill(DS);
                 dataGridView1.DataSource = DS.Tables[0];
+
+                int a = this.dataGridView1.Rows.Count;
+                lblYonetici.Text = "Güncel Yönetici Listesi (" + a.ToString() + " adet yönetici bulunmaktadır)";
 
                 this.CloseConnection();
             }

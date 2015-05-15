@@ -30,7 +30,7 @@
         {
             this.lblHosgeldin = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.lblStok = new System.Windows.Forms.Label();
+            this.lblYonetici = new System.Windows.Forms.Label();
             this.btnYenile = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnYoneticiEkle = new System.Windows.Forms.Button();
@@ -51,29 +51,30 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 61);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 84);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.ShowEditingIcon = false;
-            this.dataGridView1.Size = new System.Drawing.Size(443, 321);
+            this.dataGridView1.Size = new System.Drawing.Size(481, 298);
             this.dataGridView1.TabIndex = 7;
             // 
-            // lblStok
+            // lblYonetici
             // 
-            this.lblStok.AutoSize = true;
-            this.lblStok.Location = new System.Drawing.Point(13, 41);
-            this.lblStok.Name = "lblStok";
-            this.lblStok.Size = new System.Drawing.Size(135, 17);
-            this.lblStok.TabIndex = 8;
-            this.lblStok.Text = "Güncel Yönetici Listesi";
+            this.lblYonetici.AutoSize = true;
+            this.lblYonetici.Location = new System.Drawing.Point(9, 61);
+            this.lblYonetici.Name = "lblYonetici";
+            this.lblYonetici.Size = new System.Drawing.Size(135, 17);
+            this.lblYonetici.TabIndex = 8;
+            this.lblYonetici.Text = "Güncel Yönetici Listesi";
             // 
             // btnYenile
             // 
             this.btnYenile.Image = global::EczaneStok.Properties.Resources.yenile;
             this.btnYenile.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnYenile.Location = new System.Drawing.Point(259, 28);
+            this.btnYenile.Location = new System.Drawing.Point(423, 53);
             this.btnYenile.Name = "btnYenile";
             this.btnYenile.Size = new System.Drawing.Size(70, 25);
             this.btnYenile.TabIndex = 9;
@@ -97,7 +98,7 @@
             // 
             this.btnYoneticiEkle.Image = global::EczaneStok.Properties.Resources._16Ekle;
             this.btnYoneticiEkle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnYoneticiEkle.Location = new System.Drawing.Point(335, 15);
+            this.btnYoneticiEkle.Location = new System.Drawing.Point(373, 9);
             this.btnYoneticiEkle.Name = "btnYoneticiEkle";
             this.btnYoneticiEkle.Size = new System.Drawing.Size(120, 38);
             this.btnYoneticiEkle.TabIndex = 11;
@@ -110,11 +111,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(467, 394);
+            this.ClientSize = new System.Drawing.Size(505, 394);
             this.Controls.Add(this.btnYoneticiEkle);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnYenile);
-            this.Controls.Add(this.lblStok);
+            this.Controls.Add(this.lblYonetici);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblHosgeldin);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -136,7 +137,7 @@
 
         private System.Windows.Forms.Label lblHosgeldin;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label lblStok;
+        private System.Windows.Forms.Label lblYonetici;
         private System.Windows.Forms.Button btnYenile;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnYoneticiEkle;

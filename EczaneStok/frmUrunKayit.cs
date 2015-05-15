@@ -95,21 +95,28 @@ namespace EczaneStok
             {
                 if (this.OpenConnection() == true)
                 {
-                    MySqlCommand cmd = new MySqlCommand(query, connection);
-                    int q = cmd.ExecuteNonQuery();
-                    if (q != 0)
+                    try
                     {
-                        MessageBox.Show("Ürün başarıyla eklendi. Stok sayfasını yenileyiniz.", "Yeni ürün eklendi", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                        txtAd.Text = "";
-                        txtBarkod.Text = "";
-                        txtStok.Text = "";
-                        txtFiyat.Text = "";
-                        rtbAciklama.Text = "";
-                        cbTur.Text = "";
-                        txtGeriOdeme.Text = "";
-                    }
+                        MySqlCommand cmd = new MySqlCommand(query, connection);
+                        int q = cmd.ExecuteNonQuery();
+                        if (q != 0)
+                        {
+                            MessageBox.Show("Ürün başarıyla eklendi. Stok sayfasını yenileyiniz.", "Yeni ürün eklendi", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                            txtAd.Text = "";
+                            txtBarkod.Text = "";
+                            txtStok.Text = "";
+                            txtFiyat.Text = "";
+                            rtbAciklama.Text = "";
+                            cbTur.Text = "";
+                            txtGeriOdeme.Text = "";
+                        }
 
-                    this.CloseConnection();
+                        this.CloseConnection();
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Ürün eklenirken bir hata oluştu.\nGirdiğiniz bilgileri kontrol ederek tekrar deneyiniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
