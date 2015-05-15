@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArama.Designer.cs">
+      <DependentUpon>frmArama.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGiris.cs">
       <SubType>Form</SubType>
     </Compile>

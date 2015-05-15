@@ -18,3 +18,15 @@ C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\bin\Debu
 C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\bin\Debug\EczaneStok.pdb
 C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmUrunKayit.resources
 C:\Users\fp\Documents\Visual Studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmYoneticiKayit.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.exe
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.pdb
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\bin\Debug\EczaneStok.exe
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\bin\Debug\EczaneStok.pdb
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.csprojResolveAssemblyReference.cache
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmGiris.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmStokEkrani.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmUrunKayit.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmYonetici.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmYoneticiKayit.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.Properties.Resources.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.csproj.GenerateResource.Cache
