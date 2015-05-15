@@ -1,0 +1,20 @@
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\bin\Debug\EczaneStok.exe
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\bin\Debug\EczaneStok.pdb
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\obj\x86\Debug\EczaneStok.frmGiris.resources
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\obj\x86\Debug\EczaneStok.Properties.Resources.resources
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\obj\x86\Debug\EczaneStok.csproj.GenerateResource.Cache
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\obj\x86\Debug\EczaneStok.exe
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\obj\x86\Debug\EczaneStok.pdb
+C:\Users\fp\AppData\Local\Temporary Projects\EczaneStok\obj\x86\Debug\EczaneStok.frmStokEkrani.resources
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.exe
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.pdb
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.csprojResolveAssemblyReference.cache
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmGiris.resources
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmStokEkrani.resources
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmYonetici.resources
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.Properties.Resources.resources
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.csproj.GenerateResource.Cache
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\bin\Debug\EczaneStok.exe
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\bin\Debug\EczaneStok.pdb
+C:\Users\fp\documents\visual studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmUrunKayit.resources
+C:\Users\fp\Documents\Visual Studio 2010\Projects\EczaneStok\EczaneStok\obj\x86\Debug\EczaneStok.frmYoneticiKayit.resources
