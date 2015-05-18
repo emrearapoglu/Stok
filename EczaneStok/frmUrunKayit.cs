@@ -117,6 +117,8 @@ namespace EczaneStok
                     catch
                     {
                         MessageBox.Show("Ürün eklenirken bir hata oluştu.\nGirdiğiniz bilgileri kontrol ederek tekrar deneyiniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                        this.CloseConnection();
                     }
                 }
                 else
