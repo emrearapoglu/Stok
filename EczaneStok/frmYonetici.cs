@@ -35,6 +35,7 @@ namespace EczaneStok
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
 
             connection = new MySqlConnection(connectionString);
+
             YoneticiDB();
 
             dataGridView1.Columns[0].HeaderText = "ID";
@@ -49,7 +50,7 @@ namespace EczaneStok
         {
             if (this.OpenConnection() == true)
             {
-                mySqlDataAdapter = new MySqlDataAdapter("select * from admins", connection);
+                mySqlDataAdapter = new MySqlDataAdapter("SELECT * FROM admins", connection);
                 DataSet DS = new DataSet();
                 mySqlDataAdapter.Fill(DS);
                 dataGridView1.DataSource = DS.Tables[0];

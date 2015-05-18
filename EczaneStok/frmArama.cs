@@ -128,7 +128,9 @@ namespace EczaneStok
                     }
                     catch
                     {
-                        MessageBox.Show("HATA");
+                        MessageBox.Show("Arama yaparken bir hata oluştu.\nLütfen girdiğiniz bilgileri kontrol ederek tekrar deneyiniz.", "Hatalı Giriş", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        
+                        this.CloseConnection();
                     }
                 }
             }

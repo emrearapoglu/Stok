@@ -53,6 +53,12 @@
     <Compile Include="frmArama.Designer.cs">
       <DependentUpon>frmArama.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDuzenle.Designer.cs">
+      <DependentUpon>frmDuzenle.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGiris.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     </Compile>
     <Compile Include="frmKritikStok.Designer.cs">
       <DependentUpon>frmKritikStok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSatis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSatis.Designer.cs">
+      <DependentUpon>frmSatis.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStokEkrani.cs">
       <SubType>Form</SubType>
@@ -94,11 +106,17 @@
     <EmbeddedResource Include="frmArama.resx">
       <DependentUpon>frmArama.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDuzenle.resx">
+      <DependentUpon>frmDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmGiris.resx">
       <DependentUpon>frmGiris.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKritikStok.resx">
       <DependentUpon>frmKritikStok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSatis.resx">
+      <DependentUpon>frmSatis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStokEkrani.resx">
       <DependentUpon>frmStokEkrani.cs</DependentUpon>
@@ -155,6 +173,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\arama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkout copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit copy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

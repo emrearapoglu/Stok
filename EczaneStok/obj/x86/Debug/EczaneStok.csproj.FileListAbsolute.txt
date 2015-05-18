@@ -32,3 +32,5 @@ C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.Properties
 C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.csproj.GenerateResource.Cache
 C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmArama.resources
 C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmKritikStok.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmDuzenle.resources
+C:\Users\fp\Documents\GitHub\Stok\EczaneStok\obj\x86\Debug\EczaneStok.frmSatis.resources

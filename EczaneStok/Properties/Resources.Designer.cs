@@ -93,9 +93,29 @@ namespace EczaneStok.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap checkout_copy {
+            get {
+                object obj = ResourceManager.GetObject("checkout copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cikis {
             get {
                 object obj = ResourceManager.GetObject("cikis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_copy {
+            get {
+                object obj = ResourceManager.GetObject("edit copy", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

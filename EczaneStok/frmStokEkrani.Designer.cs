@@ -31,13 +31,15 @@
             this.lblHosgeldin = new System.Windows.Forms.Label();
             this.lblStok = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lnkKritikStok = new System.Windows.Forms.LinkLabel();
+            this.btnDuzenle = new System.Windows.Forms.Button();
+            this.btnSatis = new System.Windows.Forms.Button();
             this.btnArama = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnYenile = new System.Windows.Forms.Button();
             this.btnCikis = new System.Windows.Forms.Button();
             this.btnUrunKaydi = new System.Windows.Forms.Button();
             this.btnListe = new System.Windows.Forms.Button();
-            this.lnkKritikStok = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -73,6 +75,43 @@
             this.dataGridView1.ShowEditingIcon = false;
             this.dataGridView1.Size = new System.Drawing.Size(856, 416);
             this.dataGridView1.TabIndex = 6;
+            // 
+            // lnkKritikStok
+            // 
+            this.lnkKritikStok.AutoSize = true;
+            this.lnkKritikStok.Location = new System.Drawing.Point(362, 91);
+            this.lnkKritikStok.Name = "lnkKritikStok";
+            this.lnkKritikStok.Size = new System.Drawing.Size(214, 17);
+            this.lnkKritikStok.TabIndex = 9;
+            this.lnkKritikStok.TabStop = true;
+            this.lnkKritikStok.Text = "Stok durumu kritik olan ürün sayısı: ";
+            this.lnkKritikStok.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkKritikStok_LinkClicked);
+            // 
+            // btnDuzenle
+            // 
+            this.btnDuzenle.Image = global::EczaneStok.Properties.Resources.edit_copy;
+            this.btnDuzenle.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDuzenle.Location = new System.Drawing.Point(485, 46);
+            this.btnDuzenle.Name = "btnDuzenle";
+            this.btnDuzenle.Size = new System.Drawing.Size(120, 38);
+            this.btnDuzenle.TabIndex = 11;
+            this.btnDuzenle.Text = "Ürün Düzenle";
+            this.btnDuzenle.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnDuzenle.UseVisualStyleBackColor = true;
+            this.btnDuzenle.Click += new System.EventHandler(this.btnDuzenle_Click);
+            // 
+            // btnSatis
+            // 
+            this.btnSatis.Image = global::EczaneStok.Properties.Resources.checkout_copy;
+            this.btnSatis.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSatis.Location = new System.Drawing.Point(374, 46);
+            this.btnSatis.Name = "btnSatis";
+            this.btnSatis.Size = new System.Drawing.Size(105, 38);
+            this.btnSatis.TabIndex = 10;
+            this.btnSatis.Text = "Ürün Satışı";
+            this.btnSatis.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnSatis.UseVisualStyleBackColor = true;
+            this.btnSatis.Click += new System.EventHandler(this.btnSatis_Click);
             // 
             // btnArama
             // 
@@ -150,23 +189,14 @@
             this.btnListe.UseVisualStyleBackColor = true;
             this.btnListe.Click += new System.EventHandler(this.btnListe_Click);
             // 
-            // lnkKritikStok
-            // 
-            this.lnkKritikStok.AutoSize = true;
-            this.lnkKritikStok.Location = new System.Drawing.Point(362, 91);
-            this.lnkKritikStok.Name = "lnkKritikStok";
-            this.lnkKritikStok.Size = new System.Drawing.Size(214, 17);
-            this.lnkKritikStok.TabIndex = 9;
-            this.lnkKritikStok.TabStop = true;
-            this.lnkKritikStok.Text = "Stok durumu kritik olan ürün sayısı: ";
-            this.lnkKritikStok.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkKritikStok_LinkClicked);
-            // 
             // frmStokEkrani
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(880, 539);
             this.ControlBox = false;
+            this.Controls.Add(this.btnDuzenle);
+            this.Controls.Add(this.btnSatis);
             this.Controls.Add(this.lnkKritikStok);
             this.Controls.Add(this.btnArama);
             this.Controls.Add(this.pictureBox1);
@@ -204,5 +234,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnArama;
         private System.Windows.Forms.LinkLabel lnkKritikStok;
+        private System.Windows.Forms.Button btnSatis;
+        private System.Windows.Forms.Button btnDuzenle;
     }
 }

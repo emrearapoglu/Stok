@@ -22,7 +22,6 @@ namespace EczaneStok
         private string database;
         private string uid;
         private string password;
-        private MySqlDataAdapter mySqlDataAdapter;
 
         private void frmYoneticiKayit_FormClosed(object sender, FormClosedEventArgs e)
         {

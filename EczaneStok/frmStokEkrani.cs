@@ -29,6 +29,8 @@ namespace EczaneStok
         public static Boolean yoneticikayitform = false;
         public static Boolean aramaform = false;
         public static Boolean kritikstokform = false;
+        public static Boolean satisform = false;
+        public static Boolean duzenleform = false;
 
         private void frmStokEkrani_Load(object sender, EventArgs e)
         {
@@ -197,6 +199,36 @@ namespace EczaneStok
             {
                 f.Show();
                 kritikstokform = true;
+            }
+            else
+            {
+                Application.OpenForms[f.Name].Focus();
+                System.Media.SystemSounds.Beep.Play();
+            }
+        }
+
+        private void btnSatis_Click(object sender, EventArgs e)
+        {
+            frmSatis f = new frmSatis();
+            if (satisform == false)
+            {
+                f.Show();
+                satisform = true;
+            }
+            else
+            {
+                Application.OpenForms[f.Name].Focus();
+                System.Media.SystemSounds.Beep.Play();
+            }
+        }
+
+        private void btnDuzenle_Click(object sender, EventArgs e)
+        {
+            frmDuzenle f = new frmDuzenle();
+            if (duzenleform == false)
+            {
+                f.Show();
+                duzenleform = true;
             }
             else
             {

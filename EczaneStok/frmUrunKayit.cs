@@ -85,14 +85,15 @@ namespace EczaneStok
             string ad = txtAd.Text;
             string barkod = txtBarkod.Text;
             string stok = txtStok.Text;
-            double fiyat = Convert.ToDouble(txtFiyat.Text);
             string aciklama = rtbAciklama.Text;
             string tur = cbTur.Text;
             string geriodeme = txtGeriOdeme.Text;
 
-            string query = "INSERT INTO `okulprojesi`.`ilac` (`id`, `ad`, `barkod`, `tur`, `stok`, `aciklama`, `fiyat`, `GeriOdemeKodu`) VALUES (NULL, '" + ad + "', '" + barkod + "', '" + tur + "', '" + stok + "', '" + aciklama + "', '" + fiyat + "', '" + geriodeme + "')";
-            if (ad != "" && barkod != "" && stok != "" && fiyat != 0 && aciklama != "" && tur != "" && geriodeme != "")
+            if (ad != "" && barkod != "" && stok != "" && txtFiyat.Text != "" && aciklama != "" && tur != "" && geriodeme != "")
             {
+                double fiyat = Convert.ToDouble(txtFiyat.Text);
+                string query = "INSERT INTO `okulprojesi`.`ilac` (`id`, `ad`, `barkod`, `tur`, `stok`, `aciklama`, `fiyat`, `GeriOdemeKodu`) VALUES (NULL, '" + ad + "', '" + barkod + "', '" + tur + "', '" + stok + "', '" + aciklama + "', '" + fiyat + "', '" + geriodeme + "')";
+
                 if (this.OpenConnection() == true)
                 {
                     try
