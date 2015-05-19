@@ -129,21 +129,22 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 125);
+            this.dataGridView1.Location = new System.Drawing.Point(15, 141);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.ShowEditingIcon = false;
-            this.dataGridView1.Size = new System.Drawing.Size(856, 173);
+            this.dataGridView1.Size = new System.Drawing.Size(863, 231);
             this.dataGridView1.TabIndex = 12;
             // 
             // frmArama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(880, 310);
+            this.ClientSize = new System.Drawing.Size(890, 384);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.btnArama);
@@ -157,6 +158,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "frmArama";
             this.Text = "Arama Ekranı";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmArama_FormClosed);

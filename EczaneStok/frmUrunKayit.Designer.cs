@@ -142,24 +142,24 @@
             // 
             this.cbTur.FormattingEnabled = true;
             this.cbTur.Items.AddRange(new object[] {
-            "Tablet",
-            "Efervesan tablet",
-            "Kapsül",
-            "Flakon",
             "Ampul",
-            "Krem",
-            "Merhem",
-            "Şampuan",
-            "Toz",
-            "Transdermal sistem",
-            "İmplant sistem",
-            "İnhaler sistem",
-            "Süspansiyon",
-            "Şurup",
-            "Losyon",
-            "Emülsiyon",
             "Damla",
-            "Sprey"});
+            "Efervesan tablet",
+            "Emülsiyon",
+            "Flakon",
+            "Implant sistem",
+            "Inhaler sistem",
+            "Kapsül",
+            "Krem",
+            "Losyon",
+            "Merhem",
+            "Sampuan",
+            "Sprey",
+            "Surup",
+            "Süspansiyon",
+            "Tablet",
+            "Toz",
+            "Transdermal sistem"});
             this.cbTur.Location = new System.Drawing.Point(151, 155);
             this.cbTur.Name = "cbTur";
             this.cbTur.Size = new System.Drawing.Size(121, 25);
@@ -238,6 +238,7 @@
             this.Controls.Add(this.txtAd);
             this.Controls.Add(this.lblHosgeldin);
             this.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;

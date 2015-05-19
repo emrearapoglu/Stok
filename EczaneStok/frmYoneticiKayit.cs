@@ -117,17 +117,26 @@ namespace EczaneStok
                 string query = "INSERT INTO `okulprojesi`.`admins` (`id`, `username`, `password`, `isim`) VALUES (NULL, '"+username+"', '"+password+"', '"+isim+"')";
                 if (this.OpenConnection() == true)
                 {
-                    MySqlCommand cmd = new MySqlCommand(query, connection);
-                    int q = cmd.ExecuteNonQuery();
-                    if (q != 0)
+                    try
                     {
-                        MessageBox.Show("Yeni yönetici '"+username+"' başarıyla eklendi.\n\nYönetici Listesi'ni yenileyiniz.", "Kayıt Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                        txtIsim.Text = "";
-                        txtKullaniciAdi.Text = "";
-                        txtSifre.Text = "";
-                    }
+                        MySqlCommand cmd = new MySqlCommand(query, connection);
+                        int q = cmd.ExecuteNonQuery();
+                        if (q != 0)
+                        {
+                            MessageBox.Show("Yeni yönetici '" + username + "' başarıyla eklendi.\n\nYönetici Listesi'ni yenileyiniz.", "Kayıt Başarılı", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                            txtIsim.Text = "";
+                            txtKullaniciAdi.Text = "";
+                            txtSifre.Text = "";
+                        }
 
-                    this.CloseConnection();
+                        this.CloseConnection();
+                    }
+                    catch
+                    {
+                        MessageBox.Show("Girdiğiniz bilgileri kontrol ederek tekrar deneyiniz.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                        this.CloseConnection();
+                    }
                 }
             }
             else
